@@ -10,27 +10,38 @@ function HowItWorks() {
         <div className="how-steps">
           <div className="how-step">
             <span className="how-badge">1</span>
-            <h5 className="how-step-title">Solicita tu comercial</h5>
+            <h5 className="how-step-title">Cuéntanos tu proyecto</h5>
             <p className="how-step-desc">
-              Elige tu plan y cuéntanos tu idea o producto.
+              Agenda una cita o llena el formulario. Nuestro equipo escucha tus
+              necesidades y objetivos para entender tu visión.
             </p>
           </div>
           <div className="how-step">
             <span className="how-badge">2</span>
-            <h5 className="how-step-title">La IA crea tu video</h5>
+            <h5 className="how-step-title">Equipo creativo en acción</h5>
             <p className="how-step-desc">
-              Nuestra plataforma genera un comercial único y personalizado en
-              minutos.
+              Un equipo real de expertos en IA y marketing diseña y personaliza
+              tu contenido, combinando tecnología y creatividad humana.
             </p>
           </div>
           <div className="how-step">
             <span className="how-badge">3</span>
-            <h5 className="how-step-title">Descarga y publica</h5>
+            <h5 className="how-step-title">Revisión y entrega personalizada</h5>
             <p className="how-step-desc">
-              Recibe tu video listo para redes sociales y comienza a impactar a tu
-              audiencia.
+              Te mostramos avances, recibimos tu feedback y ajustamos hasta que
+              estés satisfecho. Solo entonces te entregamos el material final
+              listo para redes.
             </p>
           </div>
+        </div>
+        <div
+          className="alert alert-info mt-4"
+          style={{ maxWidth: 600, margin: "0 auto" }}
+        >
+          <i className="bi bi-people me-2"></i>
+          Detrás de cada proyecto hay personas reales trabajando para ti. El botón
+          "Pagar" inicia el proceso, pero nuestro equipo te acompaña en todo
+          momento.
         </div>
       </div>
     </section>

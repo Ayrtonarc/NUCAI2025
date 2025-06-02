@@ -31,6 +31,21 @@ function Testimonials() {
             <span className="testimonial-role">CMO, Startup Tech</span>
           </div>
         </div>
+        <div className="testimonial-video mt-4 text-center">
+          <h5 className="text-white mb-3"><i className="bi bi-play-circle me-2"></i>Video de muestra</h5>
+          <div style={{maxWidth: 640, margin: "0 auto"}}>
+            <iframe
+              width="100%"
+              height="360"
+              src="https://www.youtube.com/embed/LUb79FHDwzY"
+              title="Video de muestra NeeucomAI"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{borderRadius: 12, background: "#222"}}
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
   );

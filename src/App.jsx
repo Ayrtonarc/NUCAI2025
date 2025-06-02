@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header.jsx";
 import Features from "./components/Features.jsx";
@@ -8,6 +7,8 @@ import Contact from "./components/Contact.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import FAQ from "./components/FAQ.jsx";
+import PrivacyNotice from "./components/PrivacyNotice.jsx";
+import "./App.css";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <HowItWorks />
       <Testimonials />
       <FAQ />
+      <PrivacyNotice />
       {/* Footer al final absoluto */}
       <footer className="footer mt-auto container-fluid">
         <div className="container py-3 text-center">

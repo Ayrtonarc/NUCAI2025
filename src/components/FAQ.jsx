@@ -3,24 +3,29 @@ import React from "react";
 function FAQ() {
   const faqs = [
     {
-      question: "¿Qué es NeeucomAI SaaS?",
+      question: "¿NeeucomAI es un software automático o una agencia?",
       answer:
-        "NeeucomAI SaaS es una plataforma en línea que automatiza la creación de comerciales de video para redes sociales usando inteligencia artificial. Permite a empresas y creadores generar contenido profesional, personalizado y listo para publicar en Instagram, Facebook, TikTok y más, sin necesidad de conocimientos técnicos."
+        "NeeucomAI es una agencia de servicios de inteligencia artificial. No eres atendido por un bot: nuestro equipo humano te acompaña en todo el proceso, desde la estrategia hasta la entrega final."
     },
     {
-      question: "¿Qué incluye cada plan de SaaS?",
+      question: "¿Qué sucede después de pagar un plan?",
       answer:
-        "Cada plan incluye una cantidad específica de videos, reels/shorts, infografías y opciones de personalización. El plan Premium y Proyecto ofrecen avatar personalizado, traducción, soporte prioritario y gestor dedicado. Consulta la tabla de planes para ver las diferencias exactas."
+        "El pago inicia el proceso, pero no es automático. Un especialista se pondrá en contacto contigo para conocer tu proyecto, resolver dudas y personalizar tu contenido."
     },
     {
-      question: "¿Cómo funciona el proceso de creación de comerciales?",
+      question: "¿Puedo agendar una cita para explicar mi proyecto?",
       answer:
-        "Solo tienes que elegir tu plan, enviar tu idea o mensaje y nuestro sistema de IA generará el video comercial adaptado a tu marca. Recibirás avances semanales y podrás solicitar ajustes según tu plan."
+        "¡Por supuesto! Puedes agendar una videollamada (Zoom o Google Meet) para que conozcamos tu marca y necesidades. Incluso podemos mostrarte una demo de face swap en vivo."
     },
     {
-      question: "¿Puedo solicitar un video completamente personalizado?",
+      question: "¿Qué incluye cada plan?",
       answer:
-        "Sí, el plan Proyecto está diseñado para creaciones 100% personalizadas, con gestor dedicado y atención prioritaria."
+        "Cada plan incluye una cantidad específica de videos, reels/shorts, infografías y opciones de personalización. Los planes avanzados ofrecen avatar personalizado, traducción, soporte prioritario y gestor dedicado. Consulta la tabla de planes para detalles."
+    },
+    {
+      question: "¿Cómo es el proceso de creación de comerciales?",
+      answer:
+        "Primero escuchamos tu idea y objetivos. Luego, nuestro equipo creativo y de IA diseña el contenido, te muestra avances y ajusta según tu feedback. Solo entregamos el material final cuando estés satisfecho."
     },
     {
       question: "¿En qué moneda se muestran los precios?",
@@ -28,9 +33,9 @@ function FAQ() {
         "Todos los precios están en pesos mexicanos (MXN) e incluyen IVA."
     },
     {
-      question: "¿Cómo puedo contratar o pedir más información?",
+      question: "¿Cómo puedo pedir más información o ayuda?",
       answer:
-        "Puedes contactarnos a través del formulario, correo o WhatsApp usando el botón flotante o el botón debajo de la tabla de planes. Nuestro WhatsApp es +52 664 759 5336."
+        "Contáctanos por el formulario, correo o WhatsApp (+52 664 759 5336). También puedes agendar una cita personalizada desde la sección de contacto."
     }
   ];
 
